@@ -23,6 +23,16 @@ public class GeoServiceImpl implements GeoService {
             return new Location("Moscow", Country.RUSSIA, null, 0);
         } else if (ip.startsWith("96.")) {
             return new Location("New York", Country.USA, null,  0);
+        } else if (ip.startsWith("104.")) {
+            return new Location("Sao Paolo", Country.BRAZIL, null,  0);
+        } else if (ip.startsWith("102.")) {
+            return new Location("Berlin", Country.GERMANY, null,  0);
+        } else if (ip.startsWith("95.")) {
+            return new Location("Helsinki", Country.FINLAND, null,  0);
+        } else if (ip.startsWith("185.")) {
+            return new Location("Roma", Country.ITALY, null,  0);
+        } else if (ip.startsWith("93.")) {
+            return new Location("Paris", Country.FRANCE, null,  0);
         }
         return null;
     }

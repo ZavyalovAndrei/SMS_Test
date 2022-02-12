@@ -4,5 +4,8 @@ public enum Country {
     RUSSIA,
     GERMANY,
     USA,
-    BRAZIL;
+    BRAZIL,
+    FINLAND,
+    FRANCE,
+    ITALY;
 }
